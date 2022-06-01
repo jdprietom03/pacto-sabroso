@@ -21,6 +21,7 @@
   font-family: 'Gotham-Black';
   font-weight: 900;
   text-transform: uppercase;
+  text-rendering: geometricPrecision;
 }
 
 .header{

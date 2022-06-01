@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
-import Paloma from "./../images/paloma.png";
-import Logo from "./../images/logo.png";
+import Paloma from "./../images/Paloma";
+import Pacto from "./../images/Pacto";
 import React from 'react';
 const weightLetters = ['U','W','Z', 'N', 'T'];
 const skinnyLetters = ['I','O'];
@@ -28,12 +28,12 @@ const Text = ({ word }) => {
         </div>
         <div className={styles.name}>
             <div className={styles.paloma}>
-                <img src={Paloma} alt="Paloma" />    
+                <Paloma />
             </div> 
             {word.split('').map((letter, index) => <Letter key={index} letter={letter} id={size - index} />)}
         </div>
         <div className={styles.logo}>
-            <img src={Logo} alt="Logo" />
+            <Pacto />
         </div>
     </div>
 }
