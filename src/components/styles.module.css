@@ -1,0 +1,93 @@
+.letter{
+    opacity: 0.9;
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+    margin: 0 -18px;
+    font-size: 13rem;
+    line-height: 225px;
+}
+
+
+
+.letter:nth-child(4n+2){
+    color: #F6A400;
+    z-index: 10!important;
+}
+
+.letter:nth-child(4n+3){
+    color: #003D8E!important;
+    z-index: 9!important;
+}
+
+.letter:nth-child(4n+4){
+    color: #FE0000!important;
+    z-index: 8!important;
+}
+
+.letter:nth-child(4n+5){
+    color: #30A926!important;
+    z-index: 6!important;
+}
+
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    height: 225px;
+    margin-left: 140px;
+}
+
+.paloma {
+    position: relative;
+
+    mix-blend-mode: normal;
+    opacity: 0.85;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1000;
+    flex-grow: 0;
+    z-index: 12;
+    right: 70px;
+    top: -90px;
+}
+
+.pacto{
+    position: relative;
+    height: 100vh;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.logo{
+    position: relative;
+    order: 3;
+}
+
+.hastag{
+    position: relative;
+    order: 2;
+    top: -100px;
+
+}
+
+.hastag span {
+    position: relative;
+    font-weight: 400;
+    font-size: 52.8555px;
+    line-height: 51px;
+    /* identical to box height */
+
+    /* Violeta */
+
+    color: #8F3292;
+}
