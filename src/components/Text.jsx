@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import Paloma from "./../images/paloma.png";
 import Logo from "./../images/logo.png";
-
+import React from 'react';
 const weightLetters = ['U','W','Z', 'N', 'T'];
 const skinnyLetters = ['I','O'];
 
