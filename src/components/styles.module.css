@@ -12,22 +12,18 @@
 
 .letter:nth-child(4n+2){
     color: #F6A400;
-    z-index: 10!important;
 }
 
 .letter:nth-child(4n+3){
     color: #003D8E!important;
-    z-index: 9!important;
 }
 
 .letter:nth-child(4n+4){
     color: #FE0000!important;
-    z-index: 8!important;
 }
 
 .letter:nth-child(4n+5){
     color: #30A926!important;
-    z-index: 6!important;
 }
 
 
